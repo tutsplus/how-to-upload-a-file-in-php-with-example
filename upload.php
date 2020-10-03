@@ -33,6 +33,7 @@ if (isset($_POST['uploadBtn']) && $_POST['uploadBtn'] == 'Upload')
       else 
       {
         $message = 'There was some error moving the file to upload directory. Please make sure the upload directory is writable by web server.';
+        //refer link to make it writable https://github.com/phpipam/phpipam/issues/253#issuecomment-190424604
       }
     }
     else
